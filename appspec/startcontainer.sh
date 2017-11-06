@@ -6,3 +6,5 @@ docker pull 959025322534.dkr.ecr.us-west-2.amazonaws.com/hugh/pywebapp:latest ||
     exit 1
 }
 docker run --name pywebapp -p 80:8080 --detach 959025322534.dkr.ecr.us-west-2.amazonaws.com/hugh/pywebapp:latest
+
+
